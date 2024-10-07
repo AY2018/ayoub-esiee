@@ -1,0 +1,13 @@
+.main_content {
+  width: 70%;
+}
+
+main {
+  justify-content: center;
+  height: 100%;
+}
+
+.content_info {
+  flex-direction: column;
+  gap: 60px;
+}

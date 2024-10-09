@@ -299,7 +299,6 @@
               </p>
             </li>
 
-            <!-- A faire -->
             <li>
               <h3>
                 Nous allons nous intéresser au site Web http://www.mai-ko.com/.
@@ -325,16 +324,27 @@
               </h3>
 
               <p>
-                Le nom de la machine pour le site http://www.mai-ko.com est www.
+                <span class="code">nslookup www.mai-ko.com</span> Le nom de la
+                machine hébergeant le site web est root.mai-ko.link lié au
+                domaine www.mai-ko.com. Le nom de domaine du site est donc
+                root.mai-ko.com.
                 <br>
-                Le nom de domaine est mai-ko.com
+                <span class="code">whois mai-ko.com</span> : Tech State/Province
+                de ce site = à Osaka.
 
                 <br>
-                Après avoir taper la commande whois, on trouve que
-                l'organisation est basée à l'adresse 12061 Bluemont Way, Reston
-                (la ville), VA, USA.
+                En ce qui concerne le ping, j'ai lancé la comande chez moi.
+                Cependant le ping sur www.mai-ko.com (qui redirige vers
+                root.mai-ko.link) a échoué, avec un taux de perte de paquets de
+                100% ==>
+                <span class="code"
+                  >19 packets transmitted, 0 packets received, 100.0% packet
+                  loss</span
+                >. = indique probablement un blocage des paquets ICMP ou une autre cause d'inaccessibilité.
 
                 <br>
+
+                Je ne peux donc pas faire de comparaison directe avec les résulats de la machine forax.github.io. Cependant, on pourrait imaginer que le TTL et les temps de ping de forax.github.io (en moyenne 50 TTL et 7ms)soient plus faibles que ceux de www.mai-ko.com due à sa proximité. 
               </p>
             </li>
           </ol>

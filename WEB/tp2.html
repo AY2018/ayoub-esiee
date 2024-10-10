@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/main.css" />
-    <link rel="stylesheet" href="../styles/header.css" />
-    <link rel="stylesheet" href="../styles/web/tp1.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/web/tp1.css">
 
     <link
       rel="stylesheet"
@@ -13,7 +13,7 @@
       integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
+   >
     <title>Compte Rendu de TP1</title>
   </head>
 
@@ -24,7 +24,7 @@
     <header>
       <h1>A<span>youb | INFO</span></h1>
       <figure>
-        <img src="../img/general/logo_esiee.png" alt="Logo de l'esiee" />
+        <img src="../img/general/logo_esiee.png" alt="Logo de l'esiee">
       </figure>
     </header>
     <div class="subheader">
@@ -74,7 +74,7 @@
           ></a>
         </div>
 
-        <hr />
+        <hr>
 
         <article class="exo" id="ex1">
           <h2>Exercice 1 - Document HTML de base</h2>
@@ -89,7 +89,7 @@
 
               <p>
                 Il manque la balise :
-                <span class="code">&lt;meta charset="UTF-8 /"&gt;</span> dans la
+                <span class="code">&lt;meta charset="UTF-8"&gt;</span> dans la
                 balise head pour que le fichier s'affiche correctement. Cette
                 balise permet de spécifier que le document utilise l'encodage
                 UTF-8, ce qui est crucial pour la prise en charge des caractères
@@ -135,10 +135,10 @@
               <p>
                 Il suffit d'enfermer le contenut que l'on veut mettre en gras ou
                 en italiques par les balises &lt;b&gt; et &lt;i&gt;
-                respectivement. Exemple : <br />
+                respectivement. Exemple : <br>
                 &lt;b&gt;Gras&lt;/b&gt; ==> <b>Gras</b>
 
-                <br />
+                <br>
 
                 &lt;i&gt;Italique&lt;/i&gt; ==> <i>Italique</i>
               </p>
@@ -154,7 +154,7 @@
                 Il suffit d'enfermer le contenut que l'on veut mettre en gras
                 entre les balises &lt;b&gt; puis &lt;i&gt; ou vice versa.
                 Exemple :
-                <br />
+                <br>
                 &lt;b&gt;&lt;i&gt;Gras + Italique&lt;/i&gt;&lt;/b&gt; ==>
                 <b><i>Gras + Italique</i></b>
               </p>
@@ -179,7 +179,7 @@
               </h3>
 
               <p>
-                <a href="http://forax.github.io/course/progweb/"
+                <a class="link_cours" target="_blank" href="http://forax.github.io/course/progweb/"
                   >Cours de programmation web</a
                 >
               </p>
@@ -199,7 +199,7 @@
                 <img
                   src="mon-arbre-a-moi.jpg"
                   alt="arbe representant la structure html de la page, balise par balise"
-                />
+               >
                 <figcaption>
                   Arbre de mon fichier html jusqu'à la question 8 (j'avais jeté
                   un coup d'oeil à tout les exercices, d'où la présence d'une
@@ -210,7 +210,7 @@
           </ol>
         </article>
 
-        <hr />
+        <hr>
 
         <article class="exo" id="ex2">
           <h2>Exercice 2 - Uniform Resource Locator</h2>
@@ -220,14 +220,14 @@
               <h3>
                 Ouvrez un navigateur Web et allez à l'URL suivante
                 <span class="code">http://monge.univ-mlv.fr/ens/</span> :
-                <br />
+                <br>
                 Quel est le nom de la machine à laquelle vous accédez ?
-                <br />
+                <br>
                 Quel est le nom de domaine auquel vous accédez ?
               </h3>
 
               <p>
-                Nom de la machine : monge <br />
+                Nom de la machine : monge <br>
                 Nom de domaine : univ-mlv.fr
               </p>
             </li>
@@ -235,8 +235,8 @@
             <li>
               <h3>
                 Si l'on exécute
-                <span class="code">host monge.univ-mlv.fr</span> : <br />
-                À quoi correspond la première ligne de la réponse ? <br />
+                <span class="code">host monge.univ-mlv.fr</span> : <br>
+                À quoi correspond la première ligne de la réponse ? <br>
                 À quoi correspond la seconde ligne de la réponse ?
               </h3>
 
@@ -248,7 +248,7 @@
                 correspond à la résolution du nom de la machine en adresse IP.
                 Cela signifie que la machine monge associée au domaine
                 univ-mlv.fr a l'adresse IP 193.55.61.150.
-                <br />
+                <br>
                 La seconde ligne
                 <span class="code"
                   >monge.univ-mlv.fr mail is handled by 10
@@ -280,23 +280,23 @@
               <h3>
                 On cherche maintenant à faire la même chose avec la machine
                 hébergeant le cours
-                <i>http://forax.github.io/course/progweb/</i> <br />
+                <i>http://forax.github.io/course/progweb/</i> <br>
                 Utiliser la commande host pour récupérer l'adresse IP de la
-                machine correspondant à l'URL. <br />
+                machine correspondant à l'URL. <br>
                 Que se passe-t-il si on essaye d'accéder à la page du cours dans
                 le browser en remplaçant le nom de la machine par l'adresse IP
-                trouvée précédemment ? <br />
+                trouvée précédemment ? <br>
                 Expliquer pourquoi.
               </h3>
 
               <p>
                 La commande a renvoyé plusieurs adresses IP pour le domaine
-                forax.github.io. <br />
+                forax.github.io. <br>
                 Si on remplace le nom de domaine forax.github.io par l'une des
                 adresses IP dans le navigateur, on n'atteint pas la page du
                 cours, mais plutôt une page d'erreur 404 indiquant que le site
-                n'existe pas à cette adresse. <br />
-                <br />
+                n'existe pas à cette adresse. <br>
+                <br>
                 Cela est dû à une configuration spécifique utilisée par GitHub
                 Pages (le service qui héberge forax.github.io). GitHub Pages
                 héberge de nombreux sites sur les mêmes adresses IP. Le serveur
@@ -311,26 +311,26 @@
             <li>
               <h3>
                 Exécutez la commande traceroute sur l'adresse IP de la machine
-                forax.github.io. <br />
-                Qu'affiche cette commande ? <br />
+                forax.github.io. <br>
+                Qu'affiche cette commande ? <br>
                 Quel est le nom du routeur de sortie (le premier que vous
-                rencontrez) ? <br />
+                rencontrez) ? <br>
                 Comment s'appelle le réseau sur lequel est connectée
                 l'université (le nom de domaine du routeur qui est après le
-                routeur de sortie) ? <br />
+                routeur de sortie) ? <br>
                 Quels sont les autres réseaux qui sont traversés ?
               </h3>
 
               <p>
                 La commande traceroute permet de suivre le chemin emprunté par
                 les paquets vers l'adresse ip de destination
-                <br /><br />
+                <br><br>
                 le nom du 1er routeur de sortie que l'on rencontre est :
                 fwint1infpedago.univ-eiffel.fr
-                <br /><br />
+                <br><br>
                 Le réseau sur lequel est connecté l'université est :
                 fwext1.univ-eiffel.fr
-                <br /><br />
+                <br><br>
                 Les autres réseaux traversés sont les réseaux RENATER et GEANT
               </p>
             </li>
@@ -338,22 +338,22 @@
             <li>
               <h3>
                 Nous allons nous intéresser au site Web http://www.mai-ko.com/.
-                <br />
+                <br>
                 Quel est le nom de la machine hébergeant le site Web ?
-                <br />
-                Quel est le nom de domaine associé à cette machine ?<br />
+                <br>
+                Quel est le nom de domaine associé à cette machine ?<br>
 
                 En utilisant la commande whois dans un terminal, trouvez quelle
                 est la ville (sur terre) de l'hébergeur de cette organisation.
-                <br />
-                Puis faites un ping sur la machine www.mai-ko.com.<br />
+                <br>
+                Puis faites un ping sur la machine www.mai-ko.com.<br>
 
                 Les temps affichés et le ttl vous semble-t-il corrects ?
-                <br />
+                <br>
 
                 Faire de même avec la machine forax.github.io qui héberge le
                 cours (whois + ping)
-                <br />
+                <br>
 
                 Que pouvez-vous en déduire (regarder le temps du ping et aussi
                 le ttl) ?
@@ -364,11 +364,11 @@
                 machine hébergeant le site web est root.mai-ko.link lié au
                 domaine www.mai-ko.com. Le nom de domaine du site est donc
                 root.mai-ko.com.
-                <br />
+                <br>
                 <span class="code">whois mai-ko.com</span> : Tech State/Province
                 de ce site = à Osaka.
 
-                <br />
+                <br>
                 En ce qui concerne le ping, j'ai lancé la comande chez moi.
                 Cependant le ping sur www.mai-ko.com (qui redirige vers
                 root.mai-ko.link) a échoué, avec un taux de perte de paquets de
@@ -378,43 +378,43 @@
                   loss</span
                 >. = indique probablement un blocage des paquets ICMP ou une autre cause d'inaccessibilité.
 
-                <br />
+                <br>
 
                 Je ne peux donc pas faire de comparaison directe avec les résulats de la machine forax.github.io. Cependant, on pourrait imaginer que le TTL et les temps de ping de forax.github.io (en moyenne 50 TTL et 7ms)soient plus faibles que ceux de www.mai-ko.com due à sa proximité. 
               </p>
             </li>
           </ol>
         </article>
-        <hr />
+        <hr>
         <article class="exo" id="ex3">
           <h2>Exercice 3 - Service HTTP</h2>
 
           <ol>
             <li>
               <h3>
-                On cherche à savoir à quoi correspond le fichier /etc/services.
+                On cherche à savoir à quoi correspond le fichieretc/services.
                 Pour cela, dans le terminal, tapez la commande man services
               </h3>
 
               <p>
                 Ce fichier est utilisé pour associer des noms de services réseau
-                à des numéros de ports et des protocoles (TCP ou UDP). <br />
-                <br />Lorsqu'une application réseau demande une connexion à un
+                à des numéros de ports et des protocoles (TCP ou UDP). <br>
+                <br>Lorsqu'une application réseau demande une connexion à un
                 service (par exemple HTTP), le système peut consulter le fichier
-                /etc/services pour savoir quel numéro de port utiliser (port 80
+               etc/services pour savoir quel numéro de port utiliser (port 80
                 pour HTTP, par exemple).
               </p>
             </li>
 
             <li>
               <h3>
-                Utilisez la commande grep sur le fichier /etc/services pour
+                Utilisez la commande grep sur le fichieretc/services pour
                 déterminer le numéro du port TCP correspondant au service http.
               </h3>
 
               <p>
                 En utilisant la comment grep suivante :
-                <span class="code">grep "http" /etc/services </span>. Le port
+                <span class="code">grep "http"etc/services </span>. Le port
                 TCP correspondant au service http = 80.
               </p>
             </li>
@@ -425,23 +425,23 @@
                 utilisez nc pour vous connecter au serveur Web de la machine
                 www.example.com en utilisant le port TCP correspondant au
                 protocole HTTP puis tapez la requête suivante :
-                <span class="code">GET / HTTP/0.9</span>
+                <span class="code">GET HTTP/0.9</span>
 
-                <br />
+                <br>
                 Puis ajouter deux retours à la ligne (RETURN, ENTER, etc)
-                <br />
+                <br>
                 Quel est le header (l'entête, en français) de la réponse ?
               </h3>
 
               <p>
-                Le header de la réponse est le suivant : <br />
-                <br />
+                Le header de la réponse est le suivant : <br>
+                <br>
 
-                HTTP/1.0 404 Not Found <br />
-                Content-Type: text/html <br />
-                Date: Sat, 05 Oct 2024 17:09:44 GMT <br />
-                Server: ECAcc (nyd/D125) <br />
-                Content-Length: 345 <br />
+                HTTP/1.0 404 Not Found <br>
+                Content-Type: text/html <br>
+                Date: Sat, 05 Oct 2024 17:09:44 GMT <br>
+                Server: ECAcc (nyd/D125) <br>
+                Content-Length: 345 <br>
                 Connection: close
               </p>
             </li>
@@ -454,11 +454,11 @@
 
               <p>
                 La première ligne =
-                <span class="code">HTTP/1.0 404 Not Found</span> <br />
+                <span class="code">HTTP/1.0 404 Not Found</span> <br>
                 <span class="code">HTTP/1.0</span> = la version du protocole
-                HTTP que le serveur utilise pour répondre à la requête. <br />
+                HTTP que le serveur utilise pour répondre à la requête. <br>
                 <span class="code">404</span> = le code de statut HTTP qui
-                indique le résultat de la requête. <br />
+                indique le résultat de la requête. <br>
                 <span class="code">Not Found</span> = la description textuelle
                 du code de statut.
               </p>
@@ -485,30 +485,30 @@
 
             <li>
               <h3>
-                Faites la même analyse, mais avec la requête <br />
+                Faites la même analyse, mais avec la requête <br>
                 <i>
-                  GET / HTTP/1.1 <br />
+                  GET HTTP/1.1 <br>
                   Host: www.example.com
                 </i>
               </h3>
 
               <p>
-                Le header de la réponse est le suivant : <br />
+                Le header de la réponse est le suivant : <br>
 
-                HTTP/1.1 200 OK Accept-Ranges: bytes Age: 285063 <br />
-                Cache-Control: max-age=604800 <br />
-                Content-Type: text/html; charset=UTF-8 <br />
-                Date: Sat, 05 Oct 2024 17:17:55 GMT <br />
-                Etag: "3147526947+gzip" <br />
-                Expires: Sat, 12 Oct 2024 17:17:55 GMT <br />
-                Last-Modified: Thu, 17 Oct 2019 07:18:26 GMT <br />
-                Server: ECAcc (nyd/D182) <br />
-                Vary: Accept-Encoding <br />
-                X-Cache: HIT <br />
-                Content-Length: 1256 <br />
+                HTTP/1.1 200 OK Accept-Ranges: bytes Age: 285063 <br>
+                Cache-Control: max-age=604800 <br>
+                Content-Type: text/html; charset=UTF-8 <br>
+                Date: Sat, 05 Oct 2024 17:17:55 GMT <br>
+                Etag: "3147526947+gzip" <br>
+                Expires: Sat, 12 Oct 2024 17:17:55 GMT <br>
+                Last-Modified: Thu, 17 Oct 2019 07:18:26 GMT <br>
+                Server: ECAcc (nyd/D182) <br>
+                Vary: Accept-Encoding <br>
+                X-Cache: HIT <br>
+                Content-Length: 1256 <br>
 
                 <span class="code">Content-Type</span>
-                = text/html; charset=UTF-8 (ajout de l'encodage UTF-8) <br />
+                = text/html; charset=UTF-8 (ajout de l'encodage UTF-8) <br>
 
                 <span class="code">Content-Length</span> = 1256
               </p>
@@ -532,13 +532,13 @@
             <li>
               <h3>
                 Enfin, sur la machine www.forax.org, faite la requête suivante
-                et analysé la réponse <br />
+                et analysé la réponse <br>
 
                 <i>
-                  GET / HTTP/1.1 <br />
+                  GET HTTP/1.1 <br>
                   Host: www.forax.org
                 </i>
-                <br /><br />
+                <br><br>
 
                 À quoi correspond la valeur de Location ?
               </h3>
@@ -546,7 +546,7 @@
               <p>
                 Le code de statut <span class="code">302</span> indique que la
                 ressource demandée a été déplacée temporairement. L'objet a été
-                trouvé mais a été déplacé à un autre emplacement. <br />
+                trouvé mais a été déplacé à un autre emplacement. <br>
                 Le corps HTML de la réponse confirme cela. Valeur de Location =
                 <span class="code">http://www-igm.univ-mlv.fr/~forax</span> =
                 l'URL de redirection vers laquelle le client doit aller pour
@@ -556,7 +556,7 @@
             </li>
           </ol>
         </article>
-        <hr />
+        <hr>
         <article class="exo" id="ex4">
           <h2>Exercice 4 - Pour finir</h2>
 
@@ -565,9 +565,9 @@
               <h3>
                 Au début de votre compte rendu, on va ajouter un cartouche
                 indiquant votre nom, votre formation, et le numéro du TP et le
-                nom de la matière sous forme d'une table HTML. <br />
+                nom de la matière sous forme d'une table HTML. <br>
                 On veut un rendu le plus identique possible à la feuille de TP.
-                <br />
+                <br>
                 On peut noter que la dernière ligne est sur 2 colonnes, allez
                 chercher dans la spécification du Standard HTML5 comment faire
                 et indiquer dans votre compte rendu comme vous avez fait pour
@@ -605,7 +605,7 @@
               </h3>
 
               <figure>
-                <img src="./html_validate.png" alt="" />
+                <img src="./html_validate.png" alt="">
               </figure>
             </li>
           </ol>
@@ -642,7 +642,7 @@
       </aside>
     </main>
     <script>
-      // Pagination
+     // Pagination
       document.addEventListener('DOMContentLoaded', () => {
         const navItems = document.querySelectorAll('nav ul li');
         const sections = document.querySelectorAll('.main_content > article');
@@ -679,7 +679,7 @@
         checkPosition();
       });
 
-      // Message erreur
+     // Message erreur
       document.querySelectorAll('.noDir').forEach((link) => {
         link.addEventListener('click', function (event) {
           event.preventDefault();
